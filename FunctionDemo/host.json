@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "FunctionDemo.HttpTrigger": "Information"
+    },
+    "Values": {
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+      "SqlConnectionString": "Server=tcp:172.16.39.7,1433;Initial Catalog=SmartHotel;MultipleActiveResultSets=true;User ID=sa;Password=@Angela2000@;TrustServerCertificate=True"
+    }
+  }
+}

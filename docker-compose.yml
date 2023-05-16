@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  functiondemo:
+    image: ${DOCKER_REGISTRY-}functiondemo
+    build:
+      context: .
+      dockerfile: FunctionDemo/Dockerfile
